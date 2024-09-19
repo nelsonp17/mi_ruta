@@ -1,0 +1,60 @@
+name: mi_ruta
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+    sdk: ^3.5.1
+dependencies:
+    flutter:
+        sdk: flutter
+    cupertino_icons: ^1.0.8
+    provider: ^6.1.2
+    supabase: ^2.3.0
+    url_launcher: ^6.3.0
+    geolocator: ^13.0.1
+    google_fonts: ^6.2.1
+    flutter_animate: ^4.5.0
+    supabase_flutter: ^2.6.0
+    get: ^4.6.6
+    stop_watch_timer: ^3.2.1
+    font_awesome_flutter: ^10.7.0
+    map: ^2.0.2
+    uuid: ^4.5.0
+    here_sdk:
+        path: plugins/here_sdk
+    socket_io_client: ^2.0.3+1
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^4.0.0
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/images/poi_texture.png
+      
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+      
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+      
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
